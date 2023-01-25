@@ -32,6 +32,8 @@ def get_user_list(lines):
 def get_url_list(lines):
     url_list = []
     for line in lines:
+        if line = False:
+            print("No access")
         url_chars = []
         copy_state = False
         for letter in line:
