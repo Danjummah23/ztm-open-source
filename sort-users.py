@@ -36,7 +36,7 @@ def get_url_list(lines):
         copy_state = False
         for letter in line:
             if letter == '(':
-                copy_state = True
+                copy_state = False
                 continue
             elif letter == ')':
                 break
